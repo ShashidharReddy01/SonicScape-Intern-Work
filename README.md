@@ -240,20 +240,68 @@
 
 </details>
 <details>
-<summary>Varying factors affecting data </summary>
+<summary>Varying factors affecting data</summary>
 
+<br> 
 <details>
-  <summary>General factors that influence data quality</summary>
+<summary>General factors that influence data quality</summary>
 
-  </details>
+1) **Research Design** - Methods of data collection and qualitative & quantitative approach.
+
+2) **Sampling Strategy** - Methods used like random, stratified, convenience sampling impact data variability.
+
+3) **Data Collection Methods** - Techniques employed influence data type and quality. Also, the environment affects the quality of data.
+
+4) **Measurement Tools** - Instruments ensure validity and reliability of data.
+
+5) **Timing** - Collection timing influences data relevance.
+
+6) **Researcher Bias** - Personal perspectives can unintentionally affect data collection and analysis.
+
+7) **Resources** - Availability of time, budget, and technology affect scope and feasibility.
+
+8) **Data Quality Control** - Procedures ensure accuracy, completeness, and consistency of collected data.
+</details>
+
 
 <details>
   <summary>General factors that influence data quality collected from vibration sensors</summary>
-  
+
+1) **Sensor Selection** - The type and quality of sensors chosen for vibration measurement can significantly impact the accuracy and range of data collected. Factors such as frequency response, sensitivity, resolution, and durability of the sensors are crucial considerations.
+
+2) **Placement of Sensors** - Proper placement of sensors on the equipment or structure being monitored is critical. Sensors should be positioned to capture vibrations accurately and representatively, considering factors like mounting surface, orientation, and proximity to vibration sources.
+
+3) **Sampling Rate** - The rate at which data is sampled (sampling frequency) affects the level of detail captured in the vibration signals. Higher sampling rates capture more nuances in vibrations but may require more storage and processing resources.
+
+4) **Signal Conditioning** - Pre-processing of the vibration signals through filtering, amplification, and noise reduction techniques can improve the quality of the data collected, enhancing the accuracy of subsequent analysis.
+
+5) **Calibration** - Regular calibration of sensors ensures that they are measuring vibrations accurately over time. Calibration helps maintain data integrity and reliability, especially in long-term monitoring applications.
+
+6) **Environmental Conditions** - Factors such as temperature, humidity, and electromagnetic interference (EMI) can influence sensor performance and data quality. Monitoring and controlling these environmental variables are essential for reliable data collection.
+
+7) **Data Synchronization** - When using multiple sensors or integrating vibration data with other types of data (e.g., temperature, pressure), synchronization ensures that all data points are aligned in time, avoiding discrepancies in analysis.
+
+
 </details>
 
 <details>
   <summary>Factors that influence pattern of relationship in data</summary>
-  
+
+1) **Equipment Variation** - Differences calibration of the sensors used to measure temperature and acceleration can introduce variability in the data.
+
+2) **Operational Conditions** - Variations in operational parameters such as speed, load, or environmental conditions (humidity, atmospheric pressure) can influence both temperature and acceleration readings.
+
+3) **Sampling Frequency** - The rate at which data is sampled affects the resolution and detail of patterns captured in the datasets.
+
+4) **Seasonal Variations** - Seasonal changes can impact temperature readings and may influence patterns observed in acceleration data, especially in outdoor or environmental monitoring.
+
+5) **Vibration Sources** - Specific machinery or processes generating vibrations can cause distinct patterns in acceleration data across different axes.
+
+6) **Temperature Effects on Material Properties** - Temperature changes can affect material properties, potentially influencing vibration patterns and acceleration readings.
+
+7) **Structural Dynamics** - The natural frequencies and modal characteristics of structures being monitored can affect acceleration patterns, especially in structural health monitoring applications.
+
+8) **Data Synchronization** - Ensuring that time stamps align correctly across temperature and acceleration datasets is crucial for accurate analysis of temporal correlations and patterns.
+
 </details>
 </details>
