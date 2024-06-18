@@ -1,6 +1,7 @@
 # SonicScape-Intern-Work
 <details>
   <summary>Signal Processing Techniques for Similarity Checks Between Patterns</summary>
+  
 # Signal Processing Techniques for Similarity Checks Between Patterns
 
 ## Cross Correlation
