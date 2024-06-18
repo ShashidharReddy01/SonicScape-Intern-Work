@@ -75,4 +75,167 @@
 
 </details>
 
+<details>
+  <summary>Machine Learning Algorithms and Techniques</summary>
 
+  # Machine Learning Techniques
+
+## Machine Learning Types
+
+1. **Supervised Learning**
+   - A) Continuous target variable → Regression → House price prediction
+   - B) Categorical target variable → Classification → Medical imaging
+
+2. **Unsupervised Learning**
+   - A) Clustering → Customer segmentation
+   - B) Association → Market basket analysis
+
+3. **Semi-Supervised Learning**
+   - A) Categorical target variable
+     - Classification → Text classification
+     - Clustering → Lane finding on GPS data
+
+4. **Reinforcement Learning**
+   - A) Categorical target variable
+     - Classification → Optimized marketing
+   - B) No target variable available
+     - Control → Driverless cars
+
+## Machine Learning Models
+
+1. **Linear Regression**
+   - Data analysis technique that predicts the value of unknown data by using another related and known data.
+   - Example: Real estate company wants to predict the selling prices of houses based on various factors.
+
+2. **Ridge Regression**
+   - Statistical regularization technique (L2 regularization). Adds a penalty to the cost function to reduce overfitting.
+
+3. **Lasso Regression**
+   - Statistical regularization technique (L1 regularization). Adds the absolute value of the magnitude of the coefficient as a penalty term to the loss function.
+
+4. **Elastic Net Regression**
+   - Linear regression technique that uses a penalty term as both L1 and L2 norms weighted by a parameter called alpha. Useful for datasets with many predictors and multicollinearity.
+
+5. **Logistic Regression**
+   - Used to find answers to questions that have two or more finite outcomes. Appropriate when the total count has an upper limit and initial growth is exponential. Used for binary classification where the sigmoid function takes input as independent variables.
+   - Example: Marketing research firm uses it to predict the likelihood of a customer purchasing a product based on their age, income, and education level.
+
+6. **Decision Tree**
+   - Non-parametric supervised algorithm used for both classification and regression tasks. Represents a series of decisions and their possible consequences.
+   - Example: Decision tree is like a flow chart that helps a person decide what to wear based on weather conditions.
+
+7. **Random Forest**
+   - Ensemble technique that combines the output of multiple decision trees to reach a single result. Can handle both classification and regression problems.
+   - Example: Classifies whether an email is spam or not. For regression problems, uses features like size, number of bedrooms, location, and age to predict the selling price of houses based on these features.
+
+8. **Gradient Boosting Machine**
+   - Combines the predictions from multiple decision trees by building a model in a stage-wise manner from weak learners and improves by correcting errors of previous models.
+   - Example: Used in financial forecasting to predict stock prices by combining multiple decision trees, with each iteration refining predictions based on errors from earlier models. Both random forest and gradient boosting are ensemble techniques.
+
+9. **XGBoost**
+   - Scalable distributed gradient boost that provides parallel tree boosting and is one of the most used libraries.
+   - Features include regularization, parallel processing, handling missing values, tree pruning, and built-in cross-validation. Can be used in high-stakes applications like fraud detection.
+
+10. **LightGBM**
+    - Faster training speed and higher efficiency. Uses a histogram-based algorithm that buckets continuous feature values into discrete bins, which speeds up the training procedure and uses low memory usage.
+
+11. **CatBoost**
+    - Designed for use on problems like regression with a very large number of independent features. Offers the highest predictive accuracy but is computationally expensive.
+    - Works with categorical data and gradient boosting, hence the name CatBoost.
+
+12. **AdaBoost**
+    - Combines multiple weak learners to create a strong classifier. Each model is trained with a weighted dataset emphasizing instances that the previous model misclassified.
+
+13. **Support Vector Machine (SVM)**
+    - Supervised machine learning algorithm that classifies data by finding an optimal line or hyperplane that maximizes the margin between classes in an N-dimensional space.
+    - Trained using several kernel functions:
+      - A) Linear kernel function
+      - B) Quadratic kernel function
+      - C) Gaussian radial basis kernel function
+      - D) Multilayer perceptron kernel function
+    - Example: Used for handwriting recognition, intrusion detection, email classification, etc. Provides high-quality results but can be slow for non-linear problems and big data.
+
+14. **K-Nearest Neighbor (KNN)**
+    - Machine learning algorithm that uses proximity to compare one data point with a set of data it was trained on and has memorized to make predictions.
+    - The most commonly used distance metric is Euclidean distance, where the nearest neighbor is assigned based on sorted distances.
+    - Small K values lead to low bias and high variance.
+
+15. **Principal Component Analysis (PCA)**
+    - Dimensionality reduction method often used to reduce the dimensionality of large datasets by transforming a large set of variables into a smaller one that still contains most of the information.
+
+16. **Independent Component Analysis (ICA)**
+    - Technique used to separate mixed signals into their independent sources.
+
+17. **Non-Negative Matrix Factorization (NMF)**
+    - Matrix V is factorized into W (basis matrix) and H (coefficient matrix). This method constrains entries to be non-negative and helps in rank reduction.
+    - Example: Used in image processing where NMF decomposes the image to assist in feature extraction and noise reduction.
+
+18. **Gaussian Mixture Model (GMM)**
+    - Soft clustering technique used in unsupervised learning to determine the probability that a given data point belongs to a cluster. Estimates mean and covariance of the components.
+    - Applications include anomaly detection, clustering, and density estimation.
+
+19. **Hierarchical Clustering**
+    - Algorithm that groups similar objects into clusters hierarchically. Ends with a set of clusters where each cluster is distinct from others, and objects within each cluster are broadly similar.
+    - Example: Clustering four cars into two clusters based on car types like sedan and SUV.
+
+20. **Mean Shift Clustering**
+    - Shifts each data point towards the highest density of distribution points within a certain radius.
+
+21. **Agglomerative Clustering**
+    - Begins with N groups, each containing one entity, and then merges the two most similar groups at each stage until a single group containing all data is reached.
+
+22. **Feedforward Neural Networks**
+    - Information flows in only one direction from input nodes through hidden nodes to output nodes.
+    - Consists of an input layer, hidden layers, and an output layer.
+    - Example: Used for image classification where an image is input, and the model predicts the class label of the image.
+
+23. **Convolutional Neural Networks (CNN)**
+    - Includes convolutional layers, max-pooling layers, and fully connected layers. Used to detect and classify objects in an image.
+
+24. **Recurrent Neural Networks (RNN)**
+    - Output from the previous step is fed as input to the current step.
+    - Example: Can create a language translator with an RNN that analyzes a sentence and correctly structures the words in a different language.
+
+25. **Long Short-Term Memory (LSTM)**
+    - Strong ability to learn and predict sequential data. Has input, forget, and output gates for processing sequences.
+    - Applications include speech recognition, time series prediction, etc.
+
+26. **Gated Recurrent Unit (GRU)**
+    - Similar to LSTM but with a simpler architecture and fewer parameters. Designed to model sequential data by selectively remembering or forgetting information over time.
+
+27. **Autoencoders**
+    - Special type of neural network trained to copy input to output. Used for tasks like noise reduction in images to improve quality.
+
+28. **Variational Autoencoder (VAE)**
+    - Enhanced form of an autoencoder that uses regularization techniques to overcome overfitting and ensure desirable properties.
+
+29. **Generative Adversarial Network (GAN)**
+    - Learns to generate new data with the same statistics as a training set. Generates completely new images rather than just improving existing ones like autoencoders.
+
+30. **Multi-Layer Perceptron (MLP)**
+    - Neural network with multiple layers of nodes fully connected to each other. Used in natural language processing, image recognition, and speech recognition.
+
+31. **Seq2Seq Model**
+    - Attention model that allows the decoder to focus on the most relevant parts of the input sequence. Boosts accuracy in sequence-to-sequence tasks.
+
+32. **Word Embedding Model**
+    - Representation of words as vectors in a multi-dimensional space where the distance and direction between vectors reflect the similarity and relationship among corresponding words.
+
+33. **ARIMA (AutoRegressive Integrated Moving Average)**
+    - Time series analysis technique for forecasting future values based on past values. Uses lagged moving averages to smooth time series data.
+    - Used in technical analysis to forecast future security prices.
+
+34. **Seasonal ARIMA**
+    - Extension of ARIMA that includes seasonality in addition to non-seasonal components.
+
+35. **Dynamic Time Warping (DTW)**
+    - Measure of similarity between two temporal sequences that may vary in speed. Replaces Euclidean distance by allowing many-to-one comparisons.
+
+36. **Hidden Markov Model (HMM)**
+    - Predicts future values based on current and previous values. Captures underlying patterns in sequential data.
+
+37. **Naive Bayes**
+    - Probabilistic classifier based on applying Bayes' theorem with naive assumptions between features. Assumes the presence of a particular feature in a class is independent of the presence of any other feature.
+
+
+</details>
