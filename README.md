@@ -1,4 +1,6 @@
 # SonicScape-Intern-Work
+<details>
+  <summary>Signal Processing Techniques for Similarity Checks Between Patterns</summary>
 # Signal Processing Techniques for Similarity Checks Between Patterns
 
 ## Cross Correlation
@@ -69,3 +71,7 @@
 
 ## Symbolic Bispectra based Lempel Ziv Complexity
 - Combines symbolic representation with bispectral analysis, which examines the interaction between different frequency components of data.
+
+</details>
+
+
