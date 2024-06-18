@@ -239,3 +239,20 @@
 
 
 </details>
+<summary>Varying factors affecting data </summary>
+
+<details>
+  <summary>General factors that influence data quality</summary>
+
+  </details>
+
+<details>
+  <summary>General factors that influence data quality collected from vibration sensors</summary>
+  
+</details>
+
+<details>
+  <summary>Factors that influence pattern of relationship in data</summary>
+  
+</details>
+</details>
