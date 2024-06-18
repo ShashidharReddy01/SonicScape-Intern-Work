@@ -239,6 +239,7 @@
 
 
 </details>
+<details>
 <summary>Varying factors affecting data </summary>
 
 <details>
